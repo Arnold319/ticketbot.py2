@@ -365,7 +365,7 @@ async def iamserverdeveloper(ctx):
 
 @client.command(pass_context = True)
 
-@commands.has_permissions(manage_roles=True)     
+@commands.has_permissions(manage_roles=True) 
 async def role(ctx, user: discord.Member, *, role: discord.Role = None):
         if role is None:
             return await client.say("You haven't specified a role! ")
@@ -478,7 +478,7 @@ async def googlefy(ctx, *, msg = None):
 async def help(ctx):
     author = ctx.message.author
     r, g, b = tuple(int(x * 255) for x in colorsys.hsv_to_rgb(random.random(), 1, 1))
-    embed = discord.Embed(color = discord.Color((r << 16) + (g << 8) + b))
+    embed = discord.Embed(color = discord.Color((r << 16) + (g << 8) + b)
     embed.set_author(name='Help')
     embed.set_image(url = 'https://image.ibb.co/caM2BK/help.gif')
     embed.add_field(name = '``Our Help Server Link`` ',value ='https://discord.gg/vMvv5rr',inline = False)
@@ -891,4 +891,9 @@ async def embed(ctx, *args):
     await client.delete_message(ctx.message)
 
 
-client.run(os.getenv('Token'))
+client.run(os.getenv('Token'pynacl==1.2.1
+git+https://github.com/Rapptz/discord.py@rewrite#egg=discord.py[voice]
+pip
+youtube_dl
+colorlog
+cffi --only-binary all; sys_platfor
